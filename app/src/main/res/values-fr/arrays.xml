@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classes">
+        <item>"Barbare"</item>
+        <item>"Barde"</item>
+        <item>"Clerc"</item>
+        <item>"Druide"</item>
+        <item>"Combattant"</item>
+        <item>"Moine"</item>
+        <item>"Paladin"</item>
+        <item>"Ranger"</item>
+        <item>"Voleur"</item>
+        <item>"Ensorceleur"</item>
+        <item>"Sorcier"</item>
+    </string-array>
+</resources>

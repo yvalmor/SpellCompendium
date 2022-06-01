@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+
+    <item android:title="@string/sort_order">
+        <menu>
+            <item android:id="@+id/sort_name"
+                android:title="@string/name"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/sort_level"
+                android:title="@string/level"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/sort_school"
+                android:title="@string/school"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/filter">
+        <menu>
+            <item android:id="@+id/filter_level"
+                android:title="@string/level"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/filter_level_0"
+                        android:title="@string/level_0"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_1"
+                        android:title="@string/level_1"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_2"
+                        android:title="@string/level_2"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_3"
+                        android:title="@string/level_3"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_4"
+                        android:title="@string/level_4"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_5"
+                        android:title="@string/level_5"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_6"
+                        android:title="@string/level_6"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_7"
+                        android:title="@string/level_7"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_8"
+                        android:title="@string/level_8"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_level_9"
+                        android:title="@string/level_9"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/filter_school"
+                android:title="@string/school"
+                app:showAsAction="never">
+                <menu>
+                    <item android:id="@+id/filter_school_0"
+                        android:title="@string/school_0"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_1"
+                        android:title="@string/school_1"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_2"
+                        android:title="@string/school_2"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_3"
+                        android:title="@string/school_3"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_4"
+                        android:title="@string/school_4"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_5"
+                        android:title="@string/school_5"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_6"
+                        android:title="@string/school_6"
+                        app:showAsAction="never" />
+                    <item android:id="@+id/filter_school_7"
+                        android:title="@string/school_7"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/reset_filter"
+                android:title="@string/reset_filter"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

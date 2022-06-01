@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="level">Niveau</string>
+    <string name="languages_header">Langues</string>
+    <string name="language_summary">Modifier la langue de l\'application</string>
+    <string name="settings">Paramètres</string>
+
+    <string name="school">École</string>
+    <string name="range">Portée</string>
+    <string name="components">Composants</string>
+    <string name="materials">Matériaux</string>
+    <string name="casting_time">Temps d\'incantation</string>
+    <string name="attack_type">Type d\'attaque</string>
+    <string name="damage_type">Type de dégats</string>
+    <string name="damage_lvl">Niveaux de dégâts</string>
+    <string name="ritual">Rituel</string>
+    <string name="concentration">Concentration</string>
+    <string name="area_of_effects">Zone d\'effet</string>
+    <string name="duration">Durée</string>
+    <string name="nothing">Aucun</string>
+    <string name="search">Recherche</string>
+    <string name="search_hint">Rechercher un sort</string>
+    <string name="name">Nom</string>
+    <string name="sort_order">Ordre de tri</string>
+    <string name="filter">Filtrer</string>
+
+    <string name="level_0">Niveau 0</string>
+    <string name="level_1">Niveau 1</string>
+    <string name="level_2">Niveau 2</string>
+    <string name="level_3">Niveau 3</string>
+    <string name="level_4">Niveau 4</string>
+    <string name="level_5">Niveau 5</string>
+    <string name="level_6">Niveau 6</string>
+    <string name="level_7">Niveau 7</string>
+    <string name="level_8">Niveau 8</string>
+    <string name="level_9">Niveau 9</string>
+
+    <string name="school_0">Abjuration</string>
+    <string name="school_1">Conjuration</string>
+    <string name="school_2">Divination</string>
+    <string name="school_3">Enchantement</string>
+    <string name="school_4">Évocation</string>
+    <string name="school_5">Illusion</string>
+    <string name="school_6">Nécromancie</string>
+    <string name="school_7">Transmutation</string>
+
+    <string name="reset_filter">Réinitialiser</string>
+</resources>
